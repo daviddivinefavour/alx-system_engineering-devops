@@ -1,5 +1,5 @@
 #!/bin/bash
+rm *~
 git add .
-read -p "enter commit message " mes
-git commit -m $mes
+git commit -m "scripting all the way ;)"
 git push
